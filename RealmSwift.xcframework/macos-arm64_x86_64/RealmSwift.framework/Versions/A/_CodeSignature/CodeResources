@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		uCCwcJrYIJ+CFkdWf1DvFKM3J0A=
+		Hd+06epDA4G3hu2KvxZp8jofZD8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -22,14 +22,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PRAikFXSC/iFq0++ETWpwJESRkZb4q33phPwja+Ew8g=
+			2XiBU5U/W83n5ST36vhXuccH47D/Qi6pdHOi4YbC+iI=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CQO5WTFXl5n2KSeWPOz+ncEqevaJyyfXy0huEFjumts=
+			rfR3x7q19yXydJaFrka0MYOaRIpxnZl4GSDB0XTjS0k=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-macos.abi.json</key>
@@ -43,14 +43,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VcAxIitVdsGxHKvXiafRoWhbma82rL/TrLVKaCPhUg4=
+			9T+95MMJjVkcqCJC8WPYpnmXZNENIv4Ttk+Fbg5ccas=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jzFk2fjl3tD48576Cdv+YYNdHTqVE8c9eD5AXEOpUnU=
+			lPtl/zKzR9DuBRgNthTfUaGdlg0BpbFlOMfz9zEtv5w=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/x86_64-apple-macos.abi.json</key>
@@ -64,14 +64,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nYF7TFRAPfdA3isYnXD2Bqtppc1toHsc9jmO/quBYzo=
+			L/LY0hfFYV5Tvg7TvTXwhBCxcXuyMeCFW4SObI7kdEk=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MEAp8USShTTMT4XFgT2caYxwIhyFaUHZ7BfvRBdxItA=
+			+yPkFfoCMky9sqv5ZcJruZQhhP+4H57XMvih+bsZsBY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nv8qjaeDP7+VJkog5CNxSctZCP5dFkFhj9nXCgUbN8Q=
+			njT9n5dAB8DiCScBy+knye9luXk2ivcZIWhe7qY3OPw=
 			</data>
 		</dict>
 	</dict>

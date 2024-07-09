@@ -1,3 +1,35 @@
+10.45.2 Release notes (2023-12-22)
+=============================================================
+
+### Enhancements
+
+* Greatly improve the performance of creating objects with a very large number
+  of pre-existing incoming links. This is primarily relevant to initial sync
+  bootstrapping when linking objects happen to be synchronized before the
+  target objects they link to ([Core #7217](https://github.com/realm/realm-core/issues/7217), since v10.0.0).
+
+### Fixed
+
+* Registering new notifications inside write transactions before actually
+  making any changes is now actually allowed. This was supposed to be allowed
+  in 10.39.1, but it did not actually work due to some redundant validation.
+* `SyncSession.ProgressDirection` and `SyncSession.ProgressMode` were missing
+  `Sendable` annotations ([PR #8435](https://github.com/realm/realm-swift/pull/8435)).
+* `Realm.Error.subscriptionFailed` was reported with the incorrect error
+  domain, making it impossible to catch (since v10.42.2, [PR #8435](https://github.com/realm/realm-swift/pull/8435)).
+
+### Compatibility
+
+* Realm Studio: 14.0.1 or later.
+* APIs are backwards compatible with all previous releases in the 10.x.y series.
+* Carthage release for Swift is built with Xcode 15.1.0.
+* CocoaPods: 1.10 or later.
+* Xcode: 14.1-15.1.0.
+
+### Internal
+
+* Upgraded realm-core from 13.25.0 to 13.25.1
+
 10.45.1 Release notes (2023-12-18)
 =============================================================
 
