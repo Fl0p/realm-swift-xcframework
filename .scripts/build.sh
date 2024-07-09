@@ -46,15 +46,12 @@ own_repository="git@github.com:Fl0p/realm-swift-xcframework.git"
 gh release list --repo https://github.com/realm/realm-swift.git --limit 3
 
 
-
-
 # Get the latest release on Sentry official repository
 remoteVersion=$(latestReleaseInRepository $src_repository)
 echo "Latest realm version available is ${remoteVersion}"
 # Get our latest mirrored release
 localVersion=$(latestReleaseInRepository $own_repository)
 echo "Latest built xcframework version is ${localVersion}"
-
 
 
 if [[ $version || $remoteVersion != $localVersion ]]; then
@@ -69,11 +66,21 @@ if [[ $version || $remoteVersion != $localVersion ]]; then
 
     gh release download v$targetVersion --repo $src_repository --pattern Carthage.xcframework.zip --clobber
 
-    echo "Unzipping package..."
+    echo "  Unzipping package..."
     unzip -q -o Carthage.xcframework.zip
 
     ls -la
 
+    git status
+    echo "  Committing changes to remote..."
+    git add .
+    git commit -m "Updated Realm xcframework up to v $targetVersion"
+    git push origin main
+    git tag $targetVersion
+    git push origin --tags
+     # Deploy
+    echo "  Creating a new release..."
+    gh release create $targetVersion --notes "Updated SPM pre-built xcframework package v$targetVersion"
 
 else
     echo "Latest version is already built"
