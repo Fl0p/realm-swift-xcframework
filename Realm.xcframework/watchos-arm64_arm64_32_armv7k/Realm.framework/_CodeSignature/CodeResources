@@ -6,7 +6,7 @@
 	<dict>
 		<key>CHANGELOG.md</key>
 		<data>
-		tACRUyQlD7QlczRz+5Ph2hDY2fA=
+		ZnBdlYpoXXzd32sf9Q/2W0FK0vs=
 		</data>
 		<key>Headers/NSError+RLMSync.h</key>
 		<data>
@@ -218,7 +218,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6YkbyMfj7MzwB3DDGxrqCIqo97Q=
+		aJ7yd/xo406FJbQbuN1wFSsbDrE=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -230,7 +230,7 @@
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		RgsM3JXqPVpYx0/ihangneAXyWM=
+		Wm+mRD+0/ehvnywccxW30wqWLyk=
 		</data>
 		<key>PrivateHeaders/RLMAccessor.h</key>
 		<data>
@@ -355,11 +355,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tACRUyQlD7QlczRz+5Ph2hDY2fA=
+			ZnBdlYpoXXzd32sf9Q/2W0FK0vs=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fe9IfYDJ5zO8ywNS6CHJZ6uR/CE7ckwIxQsXtN4p9q8=
+			pXTLdvU3EysFCVIum6DC3dvvdKpGrZrZ8m0E1+VsbOo=
 			</data>
 		</dict>
 		<key>Headers/NSError+RLMSync.h</key>
@@ -960,11 +960,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RgsM3JXqPVpYx0/ihangneAXyWM=
+			Wm+mRD+0/ehvnywccxW30wqWLyk=
 			</data>
 			<key>hash2</key>
 			<data>
-			x4PHNYXuob0PxsgePeqYfZ/WjhR03d5QGv6aWj9myCY=
+			s64weEDWcaA+VrWYxYVUPY4Vzzjp9C5CMTghk1exuuw=
 			</data>
 		</dict>
 		<key>PrivateHeaders/RLMAccessor.h</key>
