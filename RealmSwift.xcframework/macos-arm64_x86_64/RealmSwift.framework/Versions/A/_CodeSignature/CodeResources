@@ -6,7 +6,11 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		FRCuu1MYybURkJPjv/EvgmOHMZg=
+		+RYJnrJwPwTrZ4Q7+vY+Tkei+lk=
+		</data>
+		<key>Resources/PrivacyInfo.xcprivacy</key>
+		<data>
+		Rqi7obUAZTcbQXF8a5X94NQxhbQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -22,14 +26,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fReFoePiwaXSjdCidd0Hn8z1tzRJcXS+0ZVOtB3WQps=
+			VOTHN4A2Ci/ojCG3Z9jx64hiJvdY1GzShjf8cGebDWg=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M55pEewe7q+K5t0VIZxwQdJHtJHMax+FDuAI4VJiJwg=
+			/JeMVv44YQIiUUPDdkZzl8EqSsqMmrwwPtaoXus3WYg=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-macos.abi.json</key>
@@ -43,14 +47,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9T+95MMJjVkcqCJC8WPYpnmXZNENIv4Ttk+Fbg5ccas=
+			PsF0Db1kaxfsshCoCdfb7NE6gXrsC94cPhSRgM2zEOw=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/IAfQUcZMad7Jve7L7+cYpSlPsIZomj5wpc9Z5IlYBQ=
+			MjGYjxh6UZxfvBNGe8IcZFSqW7N45PAioxgcn9ib2yw=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/x86_64-apple-macos.abi.json</key>
@@ -64,14 +68,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L/LY0hfFYV5Tvg7TvTXwhBCxcXuyMeCFW4SObI7kdEk=
+			k9JgcA0eG56Dr1q5Hywg+PHwNSeGekT+oBaEtwrlTqM=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cs3O8+dHwgLjf/vR/E8ejTvbsD5PJElA+yLYY3NfjDo=
+			MIl2X4TS4Hn31uzamP4s+N8wIjTWREFsHEOt+xu5Mtw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -85,7 +89,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iRNADjclZNLrSE2ZNpCkbcK/S+b1mlWA8osFykwXXeU=
+			5bVLKA1YEvfrMuFG1A3y+72mWcvu/A4dIgzh06E7A80=
+			</data>
+		</dict>
+		<key>Resources/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g1eTYkX9jkNUpHNetdb+DWoCoZMdH51E1dF2UmycZQE=
 			</data>
 		</dict>
 	</dict>

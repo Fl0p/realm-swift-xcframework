@@ -6,15 +6,19 @@
 	<dict>
 		<key>Resources/CHANGELOG.md</key>
 		<data>
-		CASCEtGf4QpZ26EOvGJ1muezSwo=
+		xStTNistD4N/RXdH7/hEZOntsyY=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		Dy8aZzRapImJNykJj91ESVCSBVA=
+		+E4yym0SBCiB5eN9ZKRpw9xAwtE=
 		</data>
 		<key>Resources/LICENSE</key>
 		<data>
 		htlQ0eA7QbvmaoSv/b3yVb0Yvsc=
+		</data>
+		<key>Resources/PrivacyInfo.xcprivacy</key>
+		<data>
+		RgsM3JXqPVpYx0/ihangneAXyWM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -254,7 +258,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j5GiT0/nxORHqliXnJv/kkbOOqZX33xDbk8OTR7zDwU=
+			HbgTIo/0epDO97aWSwwnNSgQXc0eo2ymNXrlSmjTcpk=
 			</data>
 		</dict>
 		<key>Headers/RLMRealm_Dynamic.h</key>
@@ -590,14 +594,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rQ0HcqO+Z2q2LaesO2dUPFoqe8GgEjjBhwnIaEAJGus=
+			8anDdLJ9riCBdvfBu/5msdc2EWUOvoVidaa5N9yp8jI=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jAB0jMQZF+wKtjNNsdkcM+vZXlnMxM+ZiVVvtDJ3/NE=
+			3apKHhRuZKjbRgFOC36mMLOD/YmGtzoEfv2TfBeTY18=
 			</data>
 		</dict>
 		<key>Resources/LICENSE</key>
@@ -605,6 +609,13 @@
 			<key>hash2</key>
 			<data>
 			aYSSIb+5AFPeITTvXm1UAoe0uYBiMmSS8flvXaaFUks=
+			</data>
+		</dict>
+		<key>Resources/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			x4PHNYXuob0PxsgePeqYfZ/WjhR03d5QGv6aWj9myCY=
 			</data>
 		</dict>
 	</dict>

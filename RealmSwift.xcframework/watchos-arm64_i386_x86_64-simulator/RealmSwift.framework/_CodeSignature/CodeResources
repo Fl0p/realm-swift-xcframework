@@ -10,19 +10,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LDTGPu5FIUMGgGTwX5EbLXuPxAM=
+		ViQUAe+l+oGvOwDQjjC8u2sxAbI=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/Project/arm64-apple-watchos-simulator.swiftsourceinfo</key>
 		<data>
-		t8SuaArusc9G+ebAxXubz+jkHJs=
+		ORztSg7fD0UA+jwJflbfovSqhOw=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/Project/i386-apple-watchos-simulator.swiftsourceinfo</key>
 		<data>
-		Mc4t2IKgnmPuRgbH3HIj/dnlf+k=
+		ifaMl7/CpphXa7kNu4Db6EU0lbU=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/Project/x86_64-apple-watchos-simulator.swiftsourceinfo</key>
 		<data>
-		6GQFxoWBAHe+OxhHldpepMTCwmg=
+		8ew1nwW0KJjILMM3LRjfOcgZjCE=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		cKymdGin8uQLw3he4HXYyOwbQw8=
+		LSrGyTcuhideLZUT0JZBY9Hv0DQ=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		8MmhNorqZz69ZYEPW+KC4HYK14g=
+		YHuvvHNfEzUdyfgtRqs9eUtUn0s=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/i386-apple-watchos-simulator.abi.json</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/i386-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		tN7qydhUwDRPxEVD9gw4ExVccI8=
+		h29CZnfk2knSRoJsdr9JKRqOMHs=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/i386-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		hTfKhCyY2Q8c3C5LPHawqrJjdFo=
+		An/nEX6OFadkbdM7VWdqJ7W5MRA=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
@@ -54,15 +54,19 @@
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		PVTzHvVC0hoEHhlUegHsBgz5i80=
+		DSkVTuOFtMeXIIM49Tg0r9mmc6w=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		TIlNazYngr63vktQ14SJch23mqA=
+		7vid0YKJdBSdrK+BSAbIxP1bmmM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		IXqtE49GMw2XlMvW/BV8T8CvAUI=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		Rqi7obUAZTcbQXF8a5X94NQxhbQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -82,33 +86,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t8SuaArusc9G+ebAxXubz+jkHJs=
+			ORztSg7fD0UA+jwJflbfovSqhOw=
 			</data>
 			<key>hash2</key>
 			<data>
-			z9NUh5NRTK8rrdaXOcKf+VGUGOQGW9Dz04+bqp5tCbM=
+			Yc2gnBuXCSG93ExvtmPh2MB6Q0ckDD4ToG3XiOsVLmU=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/Project/i386-apple-watchos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Mc4t2IKgnmPuRgbH3HIj/dnlf+k=
+			ifaMl7/CpphXa7kNu4Db6EU0lbU=
 			</data>
 			<key>hash2</key>
 			<data>
-			EQf8HqKUl9QbiYkrU7zAvk0ecEIN65MTloOITM9dUfY=
+			E88pO9mdYWAMgZAsdh6wj+wPS7d4zNkGo1iZCQxx9/8=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/Project/x86_64-apple-watchos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6GQFxoWBAHe+OxhHldpepMTCwmg=
+			8ew1nwW0KJjILMM3LRjfOcgZjCE=
 			</data>
 			<key>hash2</key>
 			<data>
-			LysATliTjQidmW5v27F/mMffOV6qgk+AqFtpkAiN4ZI=
+			tk1Ad4qT7F0TKpRcK2j9hVbQ42823ZDGuRlXyqbsfy4=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
@@ -126,22 +130,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cKymdGin8uQLw3he4HXYyOwbQw8=
+			LSrGyTcuhideLZUT0JZBY9Hv0DQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			hg8XuSq9FTuCI+mgEoohy43SeDipjf2N5CCywHgNMvg=
+			oaGQ9ZId9AZfX2gNStsxoCbnKDcIQaxxQUdIRSUe4A4=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8MmhNorqZz69ZYEPW+KC4HYK14g=
+			YHuvvHNfEzUdyfgtRqs9eUtUn0s=
 			</data>
 			<key>hash2</key>
 			<data>
-			uqtbAgP3/K15JQWzGNMc7AknWMC6xBzPeK51d23FWCY=
+			YgEmCmVvCYRqjm+1k6sAZ6rV3iryqHaJ+dIR6Sikgnc=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/i386-apple-watchos-simulator.abi.json</key>
@@ -159,22 +163,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tN7qydhUwDRPxEVD9gw4ExVccI8=
+			h29CZnfk2knSRoJsdr9JKRqOMHs=
 			</data>
 			<key>hash2</key>
 			<data>
-			tb5her1UrWXa5DmPaXSEkpzd5vd708mzswgtAJOfoGY=
+			4ycIbF2ymUEgU8LqFBOPEoHwQ5zNfHjkKFNDuS9nIRQ=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/i386-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hTfKhCyY2Q8c3C5LPHawqrJjdFo=
+			An/nEX6OFadkbdM7VWdqJ7W5MRA=
 			</data>
 			<key>hash2</key>
 			<data>
-			g0Upp7JAbNOMIG+XCw34ScdD6odOnrEcMzSedssFhqU=
+			cnZFXeJXvF8MU+BzG9TQsapdDbE8WiMzvkUUhNTDvWc=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
@@ -192,22 +196,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PVTzHvVC0hoEHhlUegHsBgz5i80=
+			DSkVTuOFtMeXIIM49Tg0r9mmc6w=
 			</data>
 			<key>hash2</key>
 			<data>
-			vQ/DopPZY6Sy6QvtYkEZHaHjDTodOru/iH5KL833BB4=
+			k0+tPBk3DIQ8z+ApA8T3oOG8/FBBTJovr4YNYTSNZpA=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TIlNazYngr63vktQ14SJch23mqA=
+			7vid0YKJdBSdrK+BSAbIxP1bmmM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Kz7IpKFBP63ZssUfT2qS2YrlmtzdnFyt2dTLN5G+Ink=
+			fULEdu9lw4Z6ESs+yRaGfiH/XN4YAV+htNX1GV3KYxU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -219,6 +223,17 @@
 			<key>hash2</key>
 			<data>
 			Zfv2ZSs6d6XBckKRFjW5jDoJ/AIcJok4zix6ZQgi7dg=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Rqi7obUAZTcbQXF8a5X94NQxhbQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			g1eTYkX9jkNUpHNetdb+DWoCoZMdH51E1dF2UmycZQE=
 			</data>
 		</dict>
 	</dict>

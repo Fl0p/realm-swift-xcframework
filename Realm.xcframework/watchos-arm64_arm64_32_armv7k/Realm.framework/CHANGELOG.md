@@ -1,3 +1,47 @@
+10.46.0 Release notes (2024-01-23)
+=============================================================
+
+### Enhancements
+
+* Add a privacy manifest to both frameworks.
+* Internal C++ symbols are no longer exported from Realm.framework when
+  installing via CocoaPods, which reduces the size of the binary by ~5%,
+  improves app startup time a little, and eliminates some warnings when linking
+  the framework. This was already the case when using Carthage or a prebuilt
+  framework ([PR #8464](https://github.com/realm/realm-swift/pull/8464)).
+* The `baseURL` field of `AppConfiguration` can now be updated, rather than the
+  value being persisted between runs of the application in the metadata
+  storage. ([Core #7201](https://github.com/realm/realm-core/issues/7201))
+* Allow in-memory synced Realms. This will allow setting an in-memory identifier on
+  a flexible sync realm.
+
+### Fixed
+
+* `@Persisted`'s Encodable implementation did not allow the encoder to
+  customize the encoding of values, which broke things like JSONEncoder's
+  `dateEncodingStrategy` ([#8425](https://github.com/realm/realm-swift/issues/8425)).
+* Fix running Package.swift on Linux to support tools like Dependabot which
+  need to build the package description but not the package itself
+  ([#8458](https://github.com/realm/realm-swift/issues/8458), since v10.40.1).
+
+### Breaking Changes
+
+* The `schemaVersion` field of `Realm.Configuration` must now always be zero
+  for synchronized Realms. Schema versions are currently not applicable to
+  synchronized Realms and the field was previously not read.
+
+### Compatibility
+
+* Realm Studio: 14.0.1 or later.
+* APIs are backwards compatible with all previous releases in the 10.x.y series.
+* Carthage release for Swift is built with Xcode 15.2.0.
+* CocoaPods: 1.10 or later.
+* Xcode: 14.2-15.2.0.
+
+### Internal
+
+* Upgraded realm-core from 13.25.1 to 13.26.0
+
 10.45.3 Release notes (2024-01-08)
 =============================================================
 
@@ -9356,7 +9400,7 @@ Prebuilt frameworks are now built with Xcode 7.1.
   the properties in a `RLMObject` subclass.
 * Fix crash on IN query with several thousand items.
 * Fix crash when querying indexed `NSString` properties.
-* Fixed an issue which prevented in-memory Realms from being used accross multiple threads.
+* Fixed an issue which prevented in-memory Realms from being used across multiple threads.
 * Preserve the sort order when querying a sorted `RLMResults`.
 * Fixed an issue with migrations where if a Realm file is deleted after a Realm is initialized,
   the newly created Realm can be initialized with an incorrect schema version.
