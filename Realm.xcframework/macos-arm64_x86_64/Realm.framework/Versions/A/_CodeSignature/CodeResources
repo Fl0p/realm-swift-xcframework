@@ -6,11 +6,11 @@
 	<dict>
 		<key>Resources/CHANGELOG.md</key>
 		<data>
-		IsuqwzZChcGa1faJoL/rV4cf1kA=
+		QUAZSHSuDbJGa2oN1CdjNdJx58E=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		F0t7KXmYRINMuc5vRNAOYxbjBUY=
+		RpOO5AJsuMYLKrTu94p39SuXjJg=
 		</data>
 		<key>Resources/LICENSE</key>
 		<data>
@@ -247,7 +247,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DMk8xOvPhlnZalU0C2E5O60eqhA67YErgxkj3mI4jXc=
+			5/wU+vBwZYMBz7gz2/c6O7wa27n6pJwmeJ4B7Lk7dS0=
 			</data>
 		</dict>
 		<key>Headers/RLMRealmConfiguration.h</key>
@@ -268,7 +268,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qZJ0imHeOKCxk0VNEkVldju7BQHiZ2hohjwCeU6aZTg=
+			bJxCzAkWtmavR98REa+yBhf9WbpCeO1FFDiM4cOsGEg=
 			</data>
 		</dict>
 		<key>Headers/RLMSchema.h</key>
@@ -331,7 +331,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bLLVFGHhtBca6vgsFZmW1oNaoYQlrjFELS/wESp9AbM=
+			L6Cw9rryP4u2QfCcgaEpMOL741cNtgKvhccA1Fp8+V8=
 			</data>
 		</dict>
 		<key>Headers/RLMThreadSafeReference.h</key>
@@ -408,7 +408,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vD90SYI5658JDp88stHbsxALdVNhs0Tojcld9hVORHE=
+			YbsuHVrKnfI/oAbd/m7M+u1v/xviGHJEqiJi8+vs4gg=
 			</data>
 		</dict>
 		<key>PrivateHeaders/RLMBSON_Private.hpp</key>
@@ -520,7 +520,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7XS2lKYYaVQEMQ+lyOes++x+RIKDsVc8K2ZyTCf2NgE=
+			iEzry1yonMcW/UIQoBx8Li6TWGn25k4Z9CCId8F6HdY=
 			</data>
 		</dict>
 		<key>PrivateHeaders/RLMScheduler.h</key>
@@ -576,7 +576,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y9ySSatKNxy/XkESWScAioTpFet/83QmLhrE1VUIgmU=
+			dm3GHpYcRZPNmq8jpA/AD0w014AA+D2+aYkmkNT94Wg=
 			</data>
 		</dict>
 		<key>PrivateHeaders/RLMUser_Private.h</key>
@@ -590,14 +590,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LcgZcAG0yMCrHWB36qQ2P0fMd4/2PXoCpicdx1C7jxo=
+			wo7BTCOgpFmQ6yzM/fLX1KRcGmlLyM5pBXnnqMSvbtA=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0bzmSkhSKYe9j/GhcZBR+2wHjcoQj2nfjOsypKpvvmg=
+			+5zuRE+wJleGtHUmmcyUG3n+o/YOBMo9fiYf48Cs9zQ=
 			</data>
 		</dict>
 		<key>Resources/LICENSE</key>

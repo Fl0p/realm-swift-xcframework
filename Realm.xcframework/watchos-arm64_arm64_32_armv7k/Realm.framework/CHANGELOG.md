@@ -1,3 +1,58 @@
+10.43.0 Release notes (2023-09-29)
+=============================================================
+
+### Enhancements
+
+* Added `Results.subscribe` API for flexible sync.
+  Now you can subscribe and unsubscribe to a flexible sync subscription through an object `Result`.
+  ```swift
+  // Named subscription query
+  let results = try await realm.objects(Dog.self).where { $0.age > 18 }.subscribe(name: "adults")
+  results.unsubscribe()
+
+  // Unnamed subscription query
+  let results = try await realm.objects(Dog.self).subscribe()
+  results.unsubscribe()
+  ````
+
+  After committing the subscription to the realm's local subscription set, the method
+  will wait for downloads according to the `WaitForSyncMode`.
+  ```swift
+  let results = try await realm.objects(Dog.self).where { $0.age > 1 }.subscribe(waitForSync: .always)
+  ```
+  Where `.always` will always download the latest data for the subscription, `.onCreation` will do
+  it only the first time the subscription is created, and `.never` will never wait for the
+  data to be downloaded.
+
+  This API is currently in `Preview` and may be subject to changes in the future.
+* Added a new API which allows to remove all the unnamed subscriptions from the subscription set.
+  ```swift
+  realm.subscriptions.removeAll(unnamedOnly: true)
+  ```
+
+### Fixed
+
+* Build the prebuilt libraries with the classic linker to work around the new
+  linker being broken on iOS <15. When using CocoaPods or SPM, you will need to
+  manually add `-Wl,-classic_ld` to `OTHER_LDFLAGS` for your application until
+  Apple fixes the bug.
+* Remove the visionOS slice from the Carthage build as it makes Carthage reject
+  the xcframework ([#8370](https://github.com/realm/realm-swift/issues/8370)).
+* Permission errors when creating asymmetric objects were not handled
+  correctly, leading to a crash ([Core #6978](https://github.com/realm/realm-core/issues/6978), since 10.35.0)
+
+### Compatibility
+
+* Realm Studio: 14.0.1 or later.
+* APIs are backwards compatible with all previous releases in the 10.x.y series.
+* Carthage release for Swift is built with Xcode 15.0.0.
+* CocoaPods: 1.10 or later.
+* Xcode: 14.1-15.0.0.
+
+### Internal
+
+* Upgraded realm-core from 13.21.0 to 13.22.0
+
 10.42.4 Release notes (2023-09-25)
 =============================================================
 
