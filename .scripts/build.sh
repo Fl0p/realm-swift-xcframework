@@ -74,6 +74,7 @@ if [[ $version || $remoteVersion != $localVersion ]]; then
 
     ls -la
 
+    git status
 
 else
     echo "Latest version is already built"
