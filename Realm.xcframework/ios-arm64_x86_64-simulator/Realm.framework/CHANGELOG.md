@@ -1,3 +1,128 @@
+10.42.4 Release notes (2023-09-25)
+=============================================================
+
+### Enhancements
+
+* Asymmetric objects are now allowed to link to non-embedded, non-asymmetric
+  objects. ([Core #6981](https://github.com/realm/realm-core/pull/6981))
+
+### Fixed
+
+* The Swift package failed to link some required system libraries when building
+  for Catalyst, potentially resulting in linker errors if the application did
+  not pull them in (since v10.40.1)
+* Logging into a single user using multiple auth providers created a separate
+  SyncUser per auth provider. This mostly worked, but had some quirks:
+  - Sync sessions would not necessarily be associated with the specific
+    SyncUser used to create them. As a result, querying a user for its sessions
+    could give incorrect results, and logging one user out could close the wrong
+    sessions.
+  - Removing one of the SyncUsers would delete all local Realm files for all
+    SyncUsers for that user.
+  - Deleting the server-side user via one of the SyncUsers left the other
+    SyncUsers in an invalid state.
+  - A SyncUser which was originally created via anonymous login and then linked
+    to an identity would still be treated as an anonymous users and removed
+    entirely on logout.
+    ([Core #6837](https://github.com/realm/realm-core/pull/6837), since v10.0.0)
+* Reading existing logged-in users on app startup from the sync metadata Realm
+  performed three no-op writes per user on the metadata Realm
+  ([Core #6837](https://github.com/realm/realm-core/pull/6837), since v10.0.0).
+* If a user was logged out while an access token refresh was in progress, the
+  refresh completing would mark the user as logged in again and the user would
+  be in an inconsistent state ([Core #6837](https://github.com/realm/realm-core/pull/6837), since v10.0.0).
+
+### Compatibility
+
+* Realm Studio: 14.0.1 or later.
+* APIs are backwards compatible with all previous releases in the 10.x.y series.
+* Carthage release for Swift is built with Xcode 15.0.0.
+* CocoaPods: 1.10 or later.
+* Xcode: 14.1-15.0.0.
+
+### Internal
+
+* Upgraded realm-core from 13.20.1 to 13.21.0
+* The schema version of the metadata Realm used to cache logged in users has
+  been bumped. Upgrading is handled automatically, but downgrading from this
+  version to older versions will result in cached logins being discarded.
+
+10.42.3 Release notes (2023-09-18)
+=============================================================
+
+### Enhancements
+
+* Update packaging for the Xcode 15.0 release. Carthage release and obj-c
+  binaries are now built with Xcode 15.
+
+### Fixed
+
+* The prebuilt Realm.xcframework for SPM was packaged incorrectly and did not
+  work ([#8361](https://github.com/realm/realm-swift/issues/8361), since v10.42.1).
+
+### Compatibility
+
+* Realm Studio: 14.0.1 or later.
+* APIs are backwards compatible with all previous releases in the 10.x.y series.
+* Carthage release for Swift is built with Xcode 15.0.0.
+* CocoaPods: 1.10 or later.
+* Xcode: 14.1-15.0.0.
+
+10.42.2 Release notes (2023-09-13)
+=============================================================
+
+### Enhancements
+
+* Add support for logging messages sent by the server.
+  ([Core #6476](https://github.com/realm/realm-core/pull/6476))
+* Unknown protocol errors received from the baas server will no longer cause
+  the application to crash if a valid error action is also received. Unknown
+  error actions will be treated as an ApplicationBug error action and will
+  cause sync to fail with an error via the sync error handler.
+  ([Core #6885](https://github.com/realm/realm-core/pull/6885))
+* Some sync error messages now contain more information about what went wrong.
+
+### Fixed
+
+* The `MultipleSyncAgents` exception from opening a synchronized Realm in
+  multiple processes at once no longer leaves the sync client in an invalid
+  state. ([Core #6868](https://github.com/realm/realm-core/pull/6868), since v10.36.0)
+* Testing the size of a collection of links against zero would sometimes fail
+  (sometimes = "difficult to explain"). In particular:
+  ([Core #6850](https://github.com/realm/realm-core/issues/6850), since v10.41.0)
+* When async writes triggered a file compaction some internal state could be
+  corrupted, leading to later crashes in the slab allocator. This typically
+  resulted in the "ref + size <= next->first" assertion failure, but other
+  failures were possible. Many issues reported; see [Core #6340](https://github.com/realm/realm-core/issues/6340).
+  (since 10.35.0)
+* `Realm.Configuration.maximumNumberOfActiveVersions` now handles intermediate
+  versions which have been cleaned up correctly and checks the number of live
+  versions rather than the number of versions between the oldest live version
+  and current version (since 10.35.0).
+* If the client disconnected between uploading a change to flexible sync
+  subscriptions and receiving the new object data from the server resulting
+  from that subscription change, the next connection to the server would
+  sometimes result in a client reset
+  ([Core #6966](https://github.com/realm/realm-core/issues/6966), since v10.21.1).
+
+### Deprecations
+
+* `RLMApp` has `localAppName` and `localAppVersion` fields which never ended up
+  being used for anything and are now deprecated.
+* `RLMSyncAuthError` has not been used since v10.0.0 and is now deprecated.
+
+### Compatibility
+
+* Realm Studio: 14.0.1 or later.
+* APIs are backwards compatible with all previous releases in the 10.x.y series.
+* Carthage release for Swift is built with Xcode 14.3.1.
+* CocoaPods: 1.10 or later.
+* Xcode: 14.1-15 beta 7.
+
+### Internal
+
+* Upgraded realm-core from 13.17.1 to 13.20.1
+
 10.42.1 Release notes (2023-08-28)
 =============================================================
 

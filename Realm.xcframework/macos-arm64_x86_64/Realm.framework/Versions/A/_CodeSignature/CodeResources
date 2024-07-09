@@ -6,11 +6,11 @@
 	<dict>
 		<key>Resources/CHANGELOG.md</key>
 		<data>
-		GNwfbDJ8TSYnRQV74y9gAYHX/BU=
+		IsuqwzZChcGa1faJoL/rV4cf1kA=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		QMK/dhORuO2iJssSFzymuPvZqdM=
+		F0t7KXmYRINMuc5vRNAOYxbjBUY=
 		</data>
 		<key>Resources/LICENSE</key>
 		<data>
@@ -37,7 +37,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pHczAQcp7EXbc3SbDf/7uC0RlPFLPmWUt/vcdvFyLMs=
+			fmHB8oywmfycQqOzXoYB99LpOLE7akGn0ZrJtqviiTs=
 			</data>
 		</dict>
 		<key>Headers/RLMArray.h</key>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OWjWlN8fXFm/L0glkTwwiNA7HP2SqXfp++r0dCTxccI=
+			6duvM3p0FRf6fZ+aS57vHkf7WvV1KPoz7PcIZA48WTU=
 			</data>
 		</dict>
 		<key>Headers/RLMFindOneAndModifyOptions.h</key>
@@ -590,14 +590,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l3AZQownO09geaJMTRs/cnmcV/NQSJYUZQe5zDMJtlc=
+			LcgZcAG0yMCrHWB36qQ2P0fMd4/2PXoCpicdx1C7jxo=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nKH86PZ/N2CPRvgSw5u4nWFXOB7A6Ax6TzxpFNjK8Zw=
+			0bzmSkhSKYe9j/GhcZBR+2wHjcoQj2nfjOsypKpvvmg=
 			</data>
 		</dict>
 		<key>Resources/LICENSE</key>
