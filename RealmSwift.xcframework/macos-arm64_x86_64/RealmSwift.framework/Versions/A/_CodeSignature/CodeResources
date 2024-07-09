@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		HXoqDPGRLx6ucMTh+C8SBMpMivQ=
+		/7Eflqf5alATs3Tjq4eDzt+fRzQ=
 		</data>
 		<key>Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -19,21 +19,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WszfslA64LNvliMFtZMtQf9NLgv/+JfSvM46BC6cur4=
+			D/TWilc9BJ9XdBu5bzB8Ti2geKXt2CLt4KJ6ZqK81zs=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2oNSk9oGW9ZV9pPsmQtX5myVvyXN1V/EVgvOeytWLes=
+			w6IHWwBuPIPI1nfCjLyQHsEITZfvoZ0qoXW5jufbhpI=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9fzfhdqRB8lDyBsOAs3upboFVE4btmC4gzTzpGsXqyE=
+			pbC+NkRpBb6Ijor+Ztw5TAQzETMe5OEdLl6IgKR7pH4=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-macos.abi.json</key>
@@ -47,14 +47,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l8UCTrc6EEJW9ROTY1BPIyOhuocZSqidkSnbDvMW0uI=
+			bNjmcAATP20z9e1rUOcwRWTnFbfqkbyJAuzXaP6cKu8=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u9qwZ232QxC+zv6Cd55KAovRpZsh1YHgXd/k3SYVXzo=
+			qUpP5FHdxG7CXnjNER8Nn+oCKZmzHoy4I5DE6LnSzSA=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/x86_64-apple-macos.abi.json</key>
@@ -68,14 +68,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J1bigSc+FMAR90d20e8S//PdCkyXrK8cDlh1ssJN3wY=
+			b7uvMisRI4AvjTEaoHmoUxrsNTglJIfz7c1toPb9MOE=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0smVELURVkFmQBZJcIVs/eOAvIFAUgW6d3Mv29y0jcY=
+			GNrbGbReanPmhUMBVeOOkoVzU8ZIVTdab7RmgAtBgVE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bzk7jntlFt4pY/C2Fe7zSsAJgLmm3m+9XyBWaRV8X0g=
+			kJAP0rxeWe/jFtg5svI3rle8EuDsD/uNN0/NVkpr9vw=
 			</data>
 		</dict>
 		<key>Resources/PrivacyInfo.xcprivacy</key>

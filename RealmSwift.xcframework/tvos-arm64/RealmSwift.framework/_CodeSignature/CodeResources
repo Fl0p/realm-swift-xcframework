@@ -6,15 +6,15 @@
 	<dict>
 		<key>Headers/RealmSwift-Swift.h</key>
 		<data>
-		gwhfbip0qkFWwPYY2kfP0Ib2M+0=
+		oCqH/08a6GLhkczRTeMj1iWEXA0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mWNAAIzUIebyzJtwqfmAkGOEMTY=
+		EkvgK/ZsOvV5G+3/fimQnuaWbww=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/Project/arm64-apple-tvos.swiftsourceinfo</key>
 		<data>
-		XBMAR+OW8Mw2t/NKw1600oJSEFM=
+		8bIrYDxqQVksR73b8pgSC1edgUs=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-tvos.abi.json</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-tvos.swiftdoc</key>
 		<data>
-		U2pwnsZ4SL7dqtfwrvUzdtGIdkQ=
+		bqYRkfI9RZqe+Kvh/DF7Xk6dGoA=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-tvos.swiftmodule</key>
 		<data>
-		CKf3zdH3AhFm9fNtLb9fmNJUA48=
+		7R5a2mzTQ1YGqm2/kzwGLPhov58=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,14 +43,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YzzDO4MDdyAMACc4Wk3HzH5CpSDDVxHEInCHvfmf+Y4=
+			w1dB+9zyErUdoCuLTsIDqa5PjoQS4FEPQLv/55A4fQo=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/Project/arm64-apple-tvos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IYawGD78tf8c53lvjUr0t8SVKS4EQHTzUgXgfcuD70k=
+			D4E9UBDo6DjVHxyiUEjR1gS6KCULJbqpGswUgVBFwTo=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-tvos.abi.json</key>
@@ -64,14 +64,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b7mg4l/Fe0n/4VM6IhSjEToSusSvBe2x42xNsNpKAoE=
+			iXzvh83wgp36koUTOYWSfsUlVzukE6FLFAu/xqkxcgY=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-tvos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nMr6ME3wD0nsR43IV1l7F5W4zl7oZEevmgWKATCfRIM=
+			mjFtVYzN4EFnExVd0b0Ezk9FmpyJfEAFvSKSvGaipV0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

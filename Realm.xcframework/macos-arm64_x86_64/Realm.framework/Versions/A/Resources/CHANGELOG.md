@@ -1,3 +1,28 @@
+10.48.0 Release notes (2024-03-07)
+=============================================================
+
+### Enhancements
+
+* Lifted a limitation that would prevent declaring a model with only computed
+  properties. ([#8414](https://github.com/realm/realm-swift/issues/8414))
+* Add Xcode 15.3 to the release package ([PR #8502](https://github.com/realm/realm-swift/pull/8502)).
+
+### Fixed
+
+* Fix multiple arguments support via the `REALM_EXTRA_BUILD_ARGUMENTS`
+  environment variable in `build.sh`. ([PR #8413](https://github.com/realm/realm-swift/pulls/8413)).
+  Thanks, [@hisaac](https://github.com/hisaac)!
+* Fix some of the new sendability warnings introduced in Xcode 15.3
+  ([PR #8502](https://github.com/realm/realm-swift/pull/8502)).
+
+### Compatibility
+
+* Realm Studio: 14.0.1 or later.
+* APIs are backwards compatible with all previous releases in the 10.x.y series.
+* Carthage release for Swift is built with Xcode 15.3.0.
+* CocoaPods: 1.10 or later.
+* Xcode: 14.2-15.3.0.
+
 10.47.0 Release notes (2024-02-12)
 =============================================================
 
@@ -956,7 +981,7 @@ supported version.
 
 ### Deprecations
 
-* `App.SyncManager.logLevel` and `App.SyncManager.logFunction` are deprecated in favour of 
+* `App.SyncManager.logLevel` and `App.SyncManager.logFunction` are deprecated in favour of
   setting a default logger.
 
 ### Compatibility
@@ -1688,7 +1713,7 @@ The prebuilt binary for Carthage is now build with Xcode 14.0.1.
   object ids.
 ### Breaking Changes
 * Private API `_realmColumnNames` has been renamed to a new public API
-  called `propertiesMapping()`. This change only affects the Swift API 
+  called `propertiesMapping()`. This change only affects the Swift API
   and doesn't have any effects in the obj-c API.
 
 ### Compatibility
@@ -1793,7 +1818,7 @@ The prebuilt binary for Carthage is now build with Xcode 14.0.1.
   sectionedResults = realm.objects(DemoObject.self)
       .sectioned(by: \.firstLetter, ascending: true)
   ```
-* Add `@ObservedSectionedResults` for SwiftUI support. This property wrapper type retrieves sectioned results 
+* Add `@ObservedSectionedResults` for SwiftUI support. This property wrapper type retrieves sectioned results
   from a Realm using a keyPath or callback to determine the section key.
   ```swift
   struct DemoView: View {
@@ -2325,7 +2350,7 @@ Non-synchronized Realm files remain backwards-compatible.
       then the client reset process reverts to manual mode.
     - The realm's underlying object accessors remain bound so the UI may be updated in a non-disruptive way.
 * Added support for client reset notification blocks for `.discardLocal` and `RLMClientResetDiscardLocal`
-  - **RealmSwift implementation**: `discardLocal(((Realm) -> Void)? = nil, ((Realm, Realm) -> Void)? = nil)` 
+  - **RealmSwift implementation**: `discardLocal(((Realm) -> Void)? = nil, ((Realm, Realm) -> Void)? = nil)`
     - RealmSwift client reset blocks are set when initializing the user configuration
     ```swift
     var configuration = user.configuration(partitionValue: "myPartition", clientResetMode: .discardLocal(beforeClientResetBlock, afterClientResetBlock))
@@ -2380,7 +2405,7 @@ Non-synchronized Realm files remain backwards-compatible.
   `.environment(\.realmConfiguration, ...)` if they did not match
   ([Cocoa #7463](https://github.com/realm/realm-swift/issues/7463), since v10.6.0).
 * Fix searchable component filter overriding the initial filter on `@ObservedResults`, (since v10.23.0).
-* Comparing `Results`, `LinkingObjects` or `AnyRealmCollection` when using Realm via XCFramework 
+* Comparing `Results`, `LinkingObjects` or `AnyRealmCollection` when using Realm via XCFramework
   would result in compile time errors ([Cocoa #7615](https://github.com/realm/realm-swift/issues/7615), since v10.21.0)
 * Opening an encrypted Realm while the keychain is locked on macOS would crash
   ([#7438](https://github.com/realm/realm-swift/issues/7438)).
@@ -2443,7 +2468,7 @@ no functional changes from 10.24.0.
 
 ### Enhancements
 
-* Add ability to use Swift Query syntax in `@ObservedResults`, which allows you 
+* Add ability to use Swift Query syntax in `@ObservedResults`, which allows you
   to filter results using the `where` parameter.
 
 ### Fixed
@@ -2507,7 +2532,7 @@ no functional changes from 10.24.0.
   be copied to the `fileURL` of the new Realm. If a Realm file already exists at the
   desitnation path, the seed file will not be copied and the already existing Realm
   will be opened instead. Note that to use this parameter with a synced Realm configuration
-  the seed Realm must be appropriately copied to a destination with 
+  the seed Realm must be appropriately copied to a destination with
   `Realm.writeCopy(configuration:)`/`[RLMRealm writeCopyForConfiguration:]` first.
 * Add ability to permanently delete a User from a MongoDB Realm app. This can
   be invoked with `User.delete()`/`[RLMUser deleteWithCompletion:]`.
@@ -2610,7 +2635,7 @@ no functional changes from 10.24.0.
 ### Enhancements
 
 * Add `metadata` property to `RLMUserProfile`/`UserProfile`.
-* Add class `Projection` to allow creation of light weight view models out of Realm Objects.  
+* Add class `Projection` to allow creation of light weight view models out of Realm Objects.
 ```swift
 public class Person: Object {
     @Persisted var firstName = ""
@@ -3046,15 +3071,15 @@ r `User.linkUser` methods.
 
 ### Enhancements
 
-* Sync logs now contain information about what object/changeset was being applied when the exception was thrown. 
+* Sync logs now contain information about what object/changeset was being applied when the exception was thrown.
   ([Core #4836](https://github.com/realm/realm-core/issues/4836))
-* Added ServiceErrorCode for wrong username/password when using '`App.login`. 
+* Added ServiceErrorCode for wrong username/password when using '`App.login`.
   ([Core #7380](https://github.com/realm/realm-swift/issues/7380)
 
 ### Fixed
 
 * Fix crash in `MongoCollection.findOneDocument(filter:)` that occurred when no results were
-  found for a given filter. 
+  found for a given filter.
   ([Cocoa #7380](https://github.com/realm/realm-swift/issues/7380), since v10.0.0)
 * Some of the SwiftUI property wrappers incorrectly required objects to conform
   to ObjectKeyIdentifiable rather than Identifiable.
@@ -3758,7 +3783,7 @@ Xcode 12.2 is now the minimum supported version.
 
 ### Enhancements
 
-* Add `@StateRealmObject` for SwiftUI support. This property wrapper type instantiates an observable object on a View. 
+* Add `@StateRealmObject` for SwiftUI support. This property wrapper type instantiates an observable object on a View.
   Use in place of `SwiftUI.StateObject` for Realm `Object`, `List`, and `EmbeddedObject` types.
 * Add `@ObservedRealmObject` for SwiftUI support. This property wrapper type subscribes to an observable object
   and invalidates a view whenever the observable object changes. Use in place of `SwiftUI.ObservedObject` for
@@ -3766,12 +3791,12 @@ Xcode 12.2 is now the minimum supported version.
 * Add `@ObservedResults` for SwiftUI support. This property wrapper type retrieves results from a Realm.
   The results use the realm configuration provided by the environment value `EnvironmentValues.realmConfiguration`.
 * Add `EnvironmentValues.realm` and `EnvironmentValues.realmConfiguration` for `Realm`
-  and `Realm.Configuration` types respectively. Values can be injected into views using the `View.environment` method, e.g., `MyView().environment(\.realmConfiguration, Realm.Configuration(fileURL: URL(fileURLWithPath: "myRealmPath.realm")))`. 
+  and `Realm.Configuration` types respectively. Values can be injected into views using the `View.environment` method, e.g., `MyView().environment(\.realmConfiguration, Realm.Configuration(fileURL: URL(fileURLWithPath: "myRealmPath.realm")))`.
   The value can then be declared on the example `MyView` as `@Environment(\.realm) var realm`.
-* Add `SwiftUI.Binding` extensions where `Value` is of type `Object`, `List`, or `EmbeddedObject`. 
-  These extensions expose methods for wrapped write transactions, to avoid boilerplate within 
+* Add `SwiftUI.Binding` extensions where `Value` is of type `Object`, `List`, or `EmbeddedObject`.
+  These extensions expose methods for wrapped write transactions, to avoid boilerplate within
   views, e.g., `TextField("name", $personObject.name)` or `$personList.append(Person())`.
-* Add `Object.bind` and `EmbeddedObject.bind` for SwiftUI support. This allows you to create 
+* Add `Object.bind` and `EmbeddedObject.bind` for SwiftUI support. This allows you to create
   bindings of realm properties when a propertyWrapper is not available for you to do so, e.g., `TextField("name", personObject.bind(\.name))`.
 * The Sync client now logs error messages received from server rather than just
   the size of the error message.
@@ -4603,7 +4628,7 @@ later will be able to open the new file format.
   owned by a single parent object, and are deleted when that parent object is
   deleted. They are defined by subclassing `EmbeddedObject` /
   `RLMEmbeddedObject` rather than `Object` / `RLMObject`.
-* Add `-[RLMSyncUser customData]`/`SyncUser.customData`.  Custom data is 
+* Add `-[RLMSyncUser customData]`/`SyncUser.customData`.  Custom data is
   configured in your MongoDB Realm App.
 * Add `-[RLMApp callFunctionNamed:arguments]`/`RealmApp.functions`. This is the
   entry point for calling Remote MongoDB Realm functions. Functions allow you
@@ -5257,7 +5282,7 @@ later will be able to open the new file format.
   owned by a single parent object, and are deleted when that parent object is
   deleted. They are defined by subclassing `EmbeddedObject` /
   `RLMEmbeddedObject` rather than `Object` / `RLMObject`.
-* Add `-[RLMSyncUser customData]`/`SyncUser.customData`.  Custom data is 
+* Add `-[RLMSyncUser customData]`/`SyncUser.customData`.  Custom data is
   configured in your MongoDB Realm App.
 * Add `-[RLMApp callFunctionNamed:arguments]`/`RealmApp.functions`. This is the
   entry point for calling Remote MongoDB Realm functions. Functions allow you
@@ -5456,7 +5481,7 @@ later will be able to open the new file format.
 
 NOTE: This version bumps the Realm file format to version 10. It is not
 possible to downgrade version 9 or earlier. Files created with older versions
-of Realm will be automatically upgraded. Only 
+of Realm will be automatically upgraded. Only
 [Studio 3.11](https://github.com/realm/realm-studio/releases/tag/v3.11.0) or later will be able
 to open the new file format.
 

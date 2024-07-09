@@ -6,7 +6,7 @@
 	<dict>
 		<key>CHANGELOG.md</key>
 		<data>
-		r4wzbzOmoD51sfbzy2xUAdVlzNg=
+		tACRUyQlD7QlczRz+5Ph2hDY2fA=
 		</data>
 		<key>Headers/NSError+RLMSync.h</key>
 		<data>
@@ -218,7 +218,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QJ0TNF3hSCkgxWcIUFKH8yjYXDM=
+		6YkbyMfj7MzwB3DDGxrqCIqo97Q=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -355,11 +355,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			r4wzbzOmoD51sfbzy2xUAdVlzNg=
+			tACRUyQlD7QlczRz+5Ph2hDY2fA=
 			</data>
 			<key>hash2</key>
 			<data>
-			gVZorf9VCrpBRGZYGVrwccDkD+/fmXWsTHxISYPH6Pg=
+			Fe9IfYDJ5zO8ywNS6CHJZ6uR/CE7ckwIxQsXtN4p9q8=
 			</data>
 		</dict>
 		<key>Headers/NSError+RLMSync.h</key>

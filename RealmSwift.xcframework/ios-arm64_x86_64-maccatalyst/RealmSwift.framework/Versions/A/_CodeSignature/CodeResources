@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		bBE9OjY8LJuvoDe1SFBznS1DWIg=
+		17VpXkKhwPMNMQf0kvzuEqkain4=
 		</data>
 		<key>Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -19,21 +19,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WszfslA64LNvliMFtZMtQf9NLgv/+JfSvM46BC6cur4=
+			D/TWilc9BJ9XdBu5bzB8Ti2geKXt2CLt4KJ6ZqK81zs=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/Project/arm64-apple-ios-macabi.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EuhRJ0TvQ+QCQhVw25n4fxVlgTa3dMPjV7GO0sE6Iv0=
+			ymjXvCMtEAAEoJJjZz7sBv/dsOtxqMHtwZquu43zhds=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/Project/x86_64-apple-ios-macabi.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wuq4z6L6gVukNL5QAIkJeRMgiQN6MkYCi6DBr1jBCyo=
+			6PId1vlA2S98VtdcLNSHnRhr7zkmJQGvnJFWjgojx6I=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
@@ -47,14 +47,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PjzDJI362+Hwa4VqOC5ORcyi5UmYqu+mQg22v7OX4MU=
+			EVmdV93jfeasWSdwJjK8zMLMbU9bpTEiHdAkC5h4fpw=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U/bXoPtsXjKAEUS8Vz/IgKxPXGRK/SgWD8ZUEmv01qU=
+			2BfPVd0bgRE3GO7u+5vBsukvkahSszqiuGHBNhMz/QM=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
@@ -68,14 +68,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8lf8EOK0Y+TiIssHc2JJdqhSK2r9akZ79sy65Myjgy4=
+			Sj28jdAQrJJtHj6Le8yMZPGnjIwN7t8FQHrnJ2qEaMM=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B/mpWkdssBa4iN4fMyW8w/unlLt8EU70QyMcGsMIUEU=
+			+2RbWeyvaXjge8/c/El/2d6yDA8P8FOKIfnbGaEfveM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pSPBfqObhR0UQEMrhoEwiRgfZPVN8xNOA1TT3EhHYu0=
+			CVyTPqaqruuPd4YUEI+pGVx1LEaAhnK1RC6xSNB3qlc=
 			</data>
 		</dict>
 		<key>Resources/PrivacyInfo.xcprivacy</key>
