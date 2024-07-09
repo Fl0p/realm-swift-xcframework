@@ -6,7 +6,7 @@
 	<dict>
 		<key>CHANGELOG.md</key>
 		<data>
-		KKvr2nvPOpkJKc5SnWGXDXs9SzE=
+		WZVzHYN6iIe3qG2lD5euvQ5qvM4=
 		</data>
 		<key>Headers/NSError+RLMSync.h</key>
 		<data>
@@ -182,7 +182,7 @@
 		</data>
 		<key>Headers/RLMSyncSession.h</key>
 		<data>
-		K9QmrCWukExa1+U0P5f26ZOO01A=
+		E417LvOXVfKWPJeWgH+c+o1JP7o=
 		</data>
 		<key>Headers/RLMSyncSubscription.h</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wEPRjxOo2YQk9c2MbjVTnzpXnpo=
+		+2B7DDyGbzkAJlbr4rbHEsceF0k=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -347,7 +347,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u3OFdHDFyC2+zVvPcz5TUkk1Z0XCv6koliAtlATdgCI=
+			ahj8Sxr1IJA0IfoPPJmZtb+JLzIiZdXDM3P/fb5lipw=
 			</data>
 		</dict>
 		<key>Headers/NSError+RLMSync.h</key>
@@ -655,7 +655,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rvz6MejDO9XajrMWBqf+EVjl3lc58wDbIXk7Chwn0BA=
+			K7XgD5hk87fsRFQQXhrO7dSRVmA/IMWcilDX2GO5uxo=
 			</data>
 		</dict>
 		<key>Headers/RLMSyncSubscription.h</key>
