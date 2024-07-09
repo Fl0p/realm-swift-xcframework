@@ -504,6 +504,9 @@ SWIFT_CLASS_NAMED("ObjectId")
 
 
 
+
+
+
 @class RLMProperty;
 
 @interface RealmSwiftAsymmetricObject (SWIFT_EXTENSION(RealmSwift))

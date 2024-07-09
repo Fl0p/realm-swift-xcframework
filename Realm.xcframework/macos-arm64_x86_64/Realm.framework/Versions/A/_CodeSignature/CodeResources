@@ -6,11 +6,11 @@
 	<dict>
 		<key>Resources/CHANGELOG.md</key>
 		<data>
-		xStTNistD4N/RXdH7/hEZOntsyY=
+		r4wzbzOmoD51sfbzy2xUAdVlzNg=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		+E4yym0SBCiB5eN9ZKRpw9xAwtE=
+		JuWW6a7lpPgP/Oi0RmmOG7yx7GE=
 		</data>
 		<key>Resources/LICENSE</key>
 		<data>
@@ -140,6 +140,13 @@
 			<key>hash2</key>
 			<data>
 			P8MSaPFACOtAPsGYinSqt6NMIsXKcWkHpFTlly2GBYo=
+			</data>
+		</dict>
+		<key>Headers/RLMGeospatial.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CheVLb9hDkY8pgjTqjGK+Q6ZhYjy1vIr2eDhokKbrZw=
 			</data>
 		</dict>
 		<key>Headers/RLMLogger.h</key>
@@ -377,14 +384,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kjoP0TvFhg49q7sxVEgPoNFg+zqo9bCE2Uh0YOpDpbE=
+			c6yLUFJuP2y4uDs6fY93PEdcM1HEMZwA4qZbqYG8p1g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KdpbsAGrxax/jx81TZ93YswnCwT1BZTor6VwIHvgRUs=
+			lOw6aKGjI0t7bbzMMNpP19RjPD25OD5/TUbck0nocNY=
 			</data>
 		</dict>
 		<key>PrivateHeaders/RLMAccessor.h</key>
@@ -594,14 +601,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8anDdLJ9riCBdvfBu/5msdc2EWUOvoVidaa5N9yp8jI=
+			gVZorf9VCrpBRGZYGVrwccDkD+/fmXWsTHxISYPH6Pg=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3apKHhRuZKjbRgFOC36mMLOD/YmGtzoEfv2TfBeTY18=
+			jyqozljcUkSeHYgCLMb/MdNDp9AB9iTh6XN2sfZ2fAA=
 			</data>
 		</dict>
 		<key>Resources/LICENSE</key>

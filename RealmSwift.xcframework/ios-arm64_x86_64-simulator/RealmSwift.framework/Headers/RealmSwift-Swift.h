@@ -504,6 +504,9 @@ SWIFT_CLASS_NAMED("ObjectId")
 
 
 
+
+
+
 @class RLMProperty;
 
 @interface RealmSwiftAsymmetricObject (SWIFT_EXTENSION(RealmSwift))
@@ -1169,6 +1172,9 @@ SWIFT_CLASS_NAMED("ObjectId")
 - (nullable instancetype)initWithString:(NSString * _Nonnull)string error:(NSError * _Nullable * _Nullable)error OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithTimestamp:(NSDate * _Nonnull)timestamp machineIdentifier:(int32_t)machineIdentifier processIdentifier:(int32_t)processIdentifier SWIFT_UNAVAILABLE;
 @end
+
+
+
 
 
 
