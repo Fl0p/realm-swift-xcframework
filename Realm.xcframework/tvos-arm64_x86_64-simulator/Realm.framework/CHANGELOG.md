@@ -1,3 +1,19 @@
+10.45.3 Release notes (2024-01-08)
+=============================================================
+
+### Enhancements
+
+* Update release packaging for Xcode 15.2. Prebuilt binaries for 14.1 and 15.0
+  have now been dropped from the release package.
+
+### Compatibility
+
+* Realm Studio: 14.0.1 or later.
+* APIs are backwards compatible with all previous releases in the 10.x.y series.
+* Carthage release for Swift is built with Xcode 15.2.0.
+* CocoaPods: 1.10 or later.
+* Xcode: 14.2-15.2.0.
+
 10.45.2 Release notes (2023-12-22)
 =============================================================
 

@@ -10,15 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mc5dMAUAmW7rY7cW1Pi0TtOLUbg=
+		vgimf1dDEIPXlcf70M7w5rRX6M0=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/Project/arm64-apple-tvos-simulator.swiftsourceinfo</key>
 		<data>
-		mbodaQ1al3ngetd8NlYWCqxfn5o=
+		JsiB4jy/2s7AiCgPYVZzC1DoEvo=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/Project/x86_64-apple-tvos-simulator.swiftsourceinfo</key>
 		<data>
-		qPxjd8pVLnWLL91LADzOmq+5vLs=
+		4OInXqPZV18ZjmQjbZHmexbJlsM=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		ZQgufztP2OmYv480qR3Q9slcupM=
+		oWy4icmFfPoABrr/dtrT8Jfdsb8=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		1rmJm0yhbBCmLOwiDK2G5sSDK6A=
+		tsFKQduqTswDNSFx+adxF+PEd7E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,14 +62,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sJVriBIZOJ2gUYVwYt+cCIKCv2AKrUjkhzBySWCfcC4=
+			z741338Pg8OP6EB0cjNum9xNjuvNeQAyH3Vj0zSSs2I=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/Project/x86_64-apple-tvos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			boTAyBQkQuZZPxP8OBRTjm+tb4nAfm0Y3oo3SvQPqTY=
+			WyvPpxgEPrHGf6k73As6+F/D4la7NB3cbdWxWMnTL1o=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
@@ -90,7 +90,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MT6kIrY+mzGS4sZ+efdw4G5H/wJ5l5dzSUwXop6f8KA=
+			Auo+HSt4Z0rYzLuOblBcSVakNbVMbT3hqkxOqtS5C7A=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ab5Ma+gdmrzGH0kxMWYYWJqtFudfu8qK3xwcIL0EkRQ=
+			Jgflc0MLJHAPF2i32XUFiRgnXzfTwsqiJCcJQKs9vgw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
