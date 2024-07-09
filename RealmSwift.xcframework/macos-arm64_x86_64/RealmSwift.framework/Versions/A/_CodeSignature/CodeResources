@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		sR2RVeMJk54oCxGf39/IbD5LyKE=
+		uCCwcJrYIJ+CFkdWf1DvFKM3J0A=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -22,14 +22,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xdxgJPBSXndCrJDTcTjEQLgr6C3INpMh6cD/h/EUU3Q=
+			PRAikFXSC/iFq0++ETWpwJESRkZb4q33phPwja+Ew8g=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			28+tBLRkfPmK/qMq0e1qFKHtRx7nSBtQ24lfbvw5XVA=
+			CQO5WTFXl5n2KSeWPOz+ncEqevaJyyfXy0huEFjumts=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-macos.abi.json</key>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4ekQkPJHal+0yxv9GDunR0Nc2S3L5gtqL80TVNoalcg=
+			Nv8qjaeDP7+VJkog5CNxSctZCP5dFkFhj9nXCgUbN8Q=
 			</data>
 		</dict>
 	</dict>
