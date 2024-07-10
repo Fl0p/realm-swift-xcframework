@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		I+8ymvEVHEcqgBVmuKAIWyMdXSk=
+		FvD23ROCMFcRjJak7KK+lfxzH68=
 		</data>
 		<key>Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -26,14 +26,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RldXk8r182hmT4OLYtVO5tht/RdRFkqGmNa6AJ+iO9I=
+			xfeaVvbqGDaBToP5uCTlRDbag9L8UgYdi8BSEGllyDk=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			feYhTOJM4kMmVfq/QiMnkTuDsXgPF10m+kKKrSYkSMc=
+			Uqa7fJVJv+FgylXPMF5jPEoBGe7Zj1Z20iBuJA3Nbws=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/arm64-apple-macos.abi.json</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hZjdoOehzHJC1kltxyxlcsCsUazHdOSThempnkIWNL8=
+			hYOYNvXsFFuZfyEXO8sU/fJdWN+la8Qzyc2qCrEf/UQ=
 			</data>
 		</dict>
 		<key>Resources/PrivacyInfo.xcprivacy</key>
